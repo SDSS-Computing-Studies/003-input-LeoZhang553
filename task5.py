@@ -13,3 +13,9 @@
 # Note: You will need to do some strange things with your cube root.
 # Remember that a cube root is the same as an exponent of 1/3, but
 # here you will need to do a power of 1.0/3 or something strange happens.
+v=input("volume=")
+v=float(v)
+import math
+r3=(v*3)/(4*math.pi)
+r=(r3)**(1/3)
+print(r)
