@@ -11,8 +11,8 @@
 
 name=input("Enter your name")
 email=input("Enter your email")
-print("your name is ",end="")
+print("Your name is ",end="")
 print(name,end="")
-print(" and your email is ",end="")
+print(", and your email is ",end="")
 print(email,end="")
 print(".",end="")
